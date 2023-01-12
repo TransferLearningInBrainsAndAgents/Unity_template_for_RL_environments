@@ -1,0 +1,14 @@
+site_name: Unity example / template for RL environments
+theme:
+  name: readthedocs
+  highlightjs: true
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: crystal
+      watch: [assets/scripts]
+nav:
+    - Home: index.md
+    - Concepts: concept.md
+    - Specific Examples: examples.md
+    - Basic Use: basic_use.md
